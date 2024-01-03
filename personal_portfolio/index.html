@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Personal Portfolio</title>
+</head>
+<style>
+    .background {
+        height: 700px;
+        width: 100%;
+        background-image: url(static/Skyline.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .background h1{
+        font-size: 80px;
+        font-weight: 700;
+        color: red;
+        text-align: center;
+        padding-top: 300px
+    }
+    #couple {
+        width: 46%;
+        height: 500px;
+        padding-left: 20px;
+    }
+    .about-info{
+        width: 30%;
+        margin-left: 100px;
+        font-size: 25px;
+    }
+    #interest-info{
+        font-size: 25px
+    }
+    #franchise{
+        width: 46%;
+        height: 500px;
+        margin-left: 130px
+    }
+    .form-control {
+        width: 50%;
+        margin-left: 350px
+    }
+</style>
+<body class="bg-dark">
+    <div class="background">
+        <h1>Jordan Hartman</h1>
+    </div>
+    <div class="about">
+        <h1 class="text-warning text-decoration-underline text-center">
+            About
+        </h1>
+        <div class="d-flex">
+        <img src="static/IMG_2781.jpeg" alt="couple" id="couple">
+        <p class="about-info text-light">Jordan is an aspiring Software Engineer. He was born in Louisiana
+            but now resides in Georgia. He has experience working help desk in a hospital setting.
+            With a Bachelor's Degree in athletic training and a Master's Degree in Sports Psychology,
+            Jordan's adaptability and drive will be a valuable asset for any team.
+        </p>
+        </div>
+    </div>
+    <div class="interest">
+        <h1 class="text-warning text-decoration-underline text-center">
+            Interests
+        </h1>
+        <div class="d-flex">
+            <ul class="text-light" id="interest-info">
+                <li>Working out</li>
+                <li>Watching Sports (Football, Basketball, Wrestling)</li>
+                <li>Listening to music</li>
+                <li>Enjoying the married life</li>
+                <li>Hanging out with friends</li>
+            </ul>
+            <img src="static/IMG_2436.JPG" alt="franchise" id="franchise">
+            </div>
+    </div>
+    <div>
+        <h1 class="text-warning text-decoration-underline text-center">
+            For Business Inquiries:
+        </h1>
+    <div class="mb-3 text-center">
+        <label for="exampleFormControlInput1" class="form-label text-light">Email address:</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3 text-center">
+        <label for="exampleFormControlTextarea1" class="form-label text-light">Specifics:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </div>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
